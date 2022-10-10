@@ -8,7 +8,7 @@ function Testimonial(props) {
             <div className="testimonial-header">
                 <img
                     className="testimonial-picture"
-                    src={require(`../images/testimonial-${image}.png`)}
+                    src={loadImage(image)}
                     alt={name}
                 />
             </div>
@@ -34,6 +34,14 @@ function Testimonial(props) {
             </div>
         </div>
     );
+}
+
+function loadImage(id) {
+    try {
+        return require(`../images/testimonial-${id}.png`);
+    } catch (e) {
+        return require(`../images/testimonial.png`);
+    }
 }
 
 export default Testimonial;
