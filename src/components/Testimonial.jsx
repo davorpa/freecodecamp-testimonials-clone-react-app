@@ -2,13 +2,13 @@ import React from "react";
 import "./Testimonial.css";
 
 function Testimonial(props) {
-    const { name, country, position, company, children: quote } = props;
+    const { name, image, country, position, company, children: quote } = props;
     return (
         <div className="testimonial">
             <div className="testimonial-header">
                 <img
                     className="testimonial-picture"
-                    src={require("../images/testimonial-emma.png")}
+                    src={require(`../images/testimonial-${image}.png`)}
                     alt={name}
                 />
             </div>

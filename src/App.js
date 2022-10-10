@@ -10,7 +10,7 @@ function App() {
                 </h1>
                 <Testimonial
                     name="Shawn Wang"
-                    image=""
+                    image="shawn"
                     country="Singapur"
                     position="Ingeniero de Software"
                     company="Amazon"
@@ -23,7 +23,7 @@ function App() {
                 </Testimonial>
                 <Testimonial
                     name="Sarah Chima"
-                    image=""
+                    image="sarah"
                     country="Nigeria"
                     position="Ingeniera de Software"
                     company="ChatDesk"
@@ -39,7 +39,7 @@ function App() {
                 </Testimonial>
                 <Testimonial
                     name="Emma Bostian"
-                    image=""
+                    image="emma"
                     country="Suecia"
                     position="Ingeniera de Software"
                     company="Spotify"
