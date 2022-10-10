@@ -52,6 +52,7 @@ function App() {
                     confianza que necesitaba para conseguir el trabajo de mis
                     sueños como ingeniera de software en Spotify.
                 </Testimonial>
+                <Testimonial></Testimonial>
             </div>
         </div>
     );
