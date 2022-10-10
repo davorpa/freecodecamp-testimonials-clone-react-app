@@ -15,7 +15,8 @@ function Testimonial(props) {
             <div className="testimonial-footer">
                 <div className="testimonial-meta">
                     <p className="testimonial-who">
-                        <span className="testimonial-who-name">{name}</span> en{" "}
+                        <strong className="testimonial-who-name">{name}</strong>{" "}
+                        en{" "}
                         <span className="testimonial-who-location">
                             {country}
                         </span>
